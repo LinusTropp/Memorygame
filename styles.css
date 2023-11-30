@@ -1,0 +1,138 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: rgb(163, 163, 163);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 0;
+  padding: 20px;
+  padding-bottom: 30px;
+  box-shadow: 0px 0px 5px 5px rgb(137, 137, 137);
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(163, 163, 163);
+  height: 40vh;
+  width: 60vw;
+  align-self: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  box-shadow: 0px 0px 5px 5px rgb(137, 137, 137);
+  border-radius: 5px;
+  text-align: center;
+}
+h2 .option1 {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(132, 60, 241);
+  align-self: center;
+  margin: 20px;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+h2 .option1:hover {
+  background-color: white;
+}
+
+.input-field {
+  align-self: center;
+  margin: 10px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.start-game {
+  align-self: center;
+  margin: 10px;
+  width: 40%;
+  height: 30%;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+.start-game:hover {
+  background-color: green;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.game-board {
+  margin-top: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(163, 163, 163);
+  width: 450px;
+  height: 350px;
+  align-self: center;
+  box-shadow: 0px 0px 5px 5px rgb(137, 137, 137);
+  border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .game-board {
+    width: 70vw;
+    height: 50vh;
+  }
+}
+
+.card {
+  box-shadow: 0px 0px 2px 2px rgb(47, 255, 147);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  width: 100px;
+  height: 75px;
+  margin: 5px;
+  background-color: rgb(8, 154, 0);
+}
+@media (max-width: 600px) {
+  .card {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+.scoreboard {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  font-size: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(163, 163, 163);
+  box-shadow: 0px 0px 5px 5px rgb(137, 137, 137);
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
+
+.restart-game-button {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 50px;
+  font-size: 0.8em;
+}
+
+.main-menu-button {
+  position: fixed;
+  bottom: 0;
+  width: 100px;
+  height: 50px;
+  font-size: 0.8em;
+}/*# sourceMappingURL=styles.css.map */
